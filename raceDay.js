@@ -6,13 +6,13 @@ let adultRegistration = isRunnerRegisteredEarly ? '9:30' : '11:00';
 let youthRegistrationTime = '12:30 PM';
 
 
-if( runnerAge > 18 && isRunnerRegisteredEarly){
+if( runnersAge > 18 && isRunnerRegisteredEarly){
   raceNumber += 1000;
   console.log('This is early adult Registration'+ raceNumber);
 }
-else if(runnerAge > 18 && !isRunnerRegisteredEarly){
+else if(runnersAge > 18 && !isRunnerRegisteredEarly){
   console.log('This is Late Adult Registration' + raceNumber);
 }
-else if(runnerAge < 18){
+else if(runnersAge < 18){
   console.log('This is youth Registration');
 }
